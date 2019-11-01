@@ -1,6 +1,10 @@
 #!/bin/bash
 # usage: ./deploy.sh <VERSION> <DATABRICKS_TOKEN> <REPO_PATH> 
 
+# todo: allow user to pass in specific repository to deploy to databricks
+# todo: parameterize defaults
+# todo: parameterize a test|deploy function
+
 REPO_PATH="${3:-/opt}"
 REPO_HOME="${REPO_PATH}/DE_cdl-databricks"
 
