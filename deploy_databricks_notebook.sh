@@ -5,6 +5,9 @@
 # todo: parameterize defaults
 # todo: parameterize a test|deploy function
 
+# setup - ensure databricks cli is installed
+pip3 install databricks-cli;
+
 REPO_PATH="${3:-/opt}"
 REPO_HOME="${REPO_PATH}/DE_cdl-databricks"
 
