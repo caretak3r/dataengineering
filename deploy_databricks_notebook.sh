@@ -1,6 +1,7 @@
 #!/bin/bash
 # usage: ./deploy.sh <VERSION> <DATABRICKS_TOKEN> <REPO_PATH> 
 
+# !! todo: fix the databricks config --token or use file
 # todo: allow user to pass in specific repository to deploy to databricks
 # todo: parameterize defaults
 # todo: parameterize a test|deploy function
