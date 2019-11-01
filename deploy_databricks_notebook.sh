@@ -14,7 +14,7 @@ REPO_HOME="${REPO_PATH}/DE_cdl-databricks"
 
 if [[ -d ${REPO_HOME} ]]; then
     echo "Removing existing repo to keep things clean..."
-    rm -rf ${REPO_PATH}
+    rm -rf ${REPO_HOME}
 fi
 
 # clone repository to REPO_PATH, if not set, then default to tmp
