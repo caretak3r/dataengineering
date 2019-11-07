@@ -33,7 +33,7 @@ echo "Creating databricks config file..."
 cat <<EOF | tee ~/.databrickscfg
 [DEFAULT]                                                                                                                                                          
 host = https://cmw-prod.cloud.databricks.com
-token = "${2}"
+token = ${2}
 
 EOF
 
