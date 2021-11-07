@@ -10,7 +10,7 @@
 pip3 install databricks-cli;
 
 REPO_PATH="${3:-/opt}"
-REPO_HOME="${REPO_PATH}/DE_cdl-databricks"
+REPO_HOME="${REPO_PATH}/project-databricks"
 
 
 if [[ -d ${REPO_HOME} ]]; then
@@ -20,7 +20,7 @@ fi
 
 # clone repository to REPO_PATH, if not set, then default to tmp
 echo "Cloning repository... (THIS ASSUMES YOU HAVE AN SSH KEY REGISTERED IN GITHUB)"
-git clone git@github.com:CadentTech/DE_cdl-databricks.git "${REPO_HOME}" && cd "$_" ;
+git clone git@github.com:Organization/somerepo.git "${REPO_HOME}" && cd "$_" ;
 
 HEAD=$(cat ${REPO_HOME}/.git/HEAD)
 BRANCH=${HEAD##*refs/heads/}
