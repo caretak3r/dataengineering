@@ -2,7 +2,7 @@
 
 if [ $# -lt 4 ] ;then
     echo "Usage: <github token> <org/repo> <filename> <version or 'latest'>"
-    echo "Example: ./github_release_download.sh <personal_access_token 'CadentTech/data-lake-cataloger' 'cataloger-1.1.0.jar' 'v1.1.0'"
+    echo "Example: ./github_release_download.sh <personal_access_token 'Organization/data-lake-cataloger' 'cataloger-1.1.0.jar' 'v1.1.0'"
     exit 1
 fi
 
